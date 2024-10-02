@@ -1,6 +1,8 @@
 aside {
     display: flex !important;
     padding: 8px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 aside > ul {
     display: flex;
@@ -8,4 +10,20 @@ aside > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+@media only screen and (max-width: 991.98px) {
+    aside {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    aside {
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    aside > ul {
+        flex-direction: column;
+        gap: 0;
+    }
 }

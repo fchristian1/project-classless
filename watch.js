@@ -6,17 +6,26 @@ let filePath = path.join("", filename);
 let tags = ["nav", "aside", "header", "footer"];
 let ids = ["loginregisterforgot"];
 
+init();
+
 fs.watchFile(filePath, () => {
     console.log("File Changed ...");
-    let file = fs.readFileSync(filePath);
     let files = getAllFiles(filename, "");
+    setFiles(files);
+});
+function init() {
+    let files = getAllFiles(filename, "");
+    setFiles(files);
+}
+function setFiles(files) {
     files.forEach((file, index) => {
         if (index > 0) {
             replaceSpecificTags(files[0], file, tags, ids);
             console.log(`Replaced tags in ${file}`);
         }
     });
-});
+}
+
 function getAllFiles(fileName, dir) {
     // give all files with fileName from the root directory recursively
     let results = [];

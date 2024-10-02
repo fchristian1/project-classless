@@ -1,4 +1,28 @@
 footer {
-    display: block !important;
-    margin: 8px;
+    display: flex !important;
+    flex-direction: column;
+}
+footer > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+@media only screen and (max-width: 991.98px) {
+    footer {
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    footer > ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
 }

@@ -4,38 +4,37 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="/layouts/root/styles/index.css" />
-        <link rel="stylesheet" href="/layouts/root/styles/header.css" />
-        <!-- <link rel="stylesheet" href="/layouts/root/styles/nav.css" /> -->
-        <!-- <link rel="stylesheet" href="/layouts/root/styles/main.css" /> -->
-        <!-- <link rel="stylesheet" href="/layouts/root/styles/aside.css" /> -->
-        <link rel="stylesheet" href="/layouts/root/styles/footer.css" />
-        <link rel="stylesheet" href="/layouts/root/styles/login.css" />
-        <!-- <link rel="stylesheet" href="/layouts/root/styles/register.css"> -->
-        <!-- <link rel="stylesheet" href="/layouts/root/styles/forgot.css"> -->
+        <link rel="stylesheet" href="/styles/index.css" />
+        <link rel="stylesheet" href="/styles/header.css" />
+        <!-- <link rel="stylesheet" href="/styles/nav.css" /> -->
+        <!-- <link rel="stylesheet" href="/styles/main.css" /> -->
+        <!-- <link rel="stylesheet" href="/styles/aside.css" /> -->
+        <link rel="stylesheet" href="/styles/footer.css" />
+        <link rel="stylesheet" href="/styles/login.css" />
+        <!-- <link rel="stylesheet" href="/styles/register.css"> -->
+        <!-- <link rel="stylesheet" href="/styles/forgot.css"> -->
         <title>Home</title>
     </head>
     <body>
         <header>
-            <a href="/layouts/root/"
-                ><img src="/layouts/root/images/logoipsum-331.svg"
-            /></a>
-            <span>Here the NAME </span>
-            <span>and here the Slogan of the side</span>
+            <a href="/"><img src="/images/logoipsum-331.svg" /></a>
+            <ul>
+                <li><span>Here the Name </span></li>
+                <li><span>and here the Slogan of the side</span></li>
+            </ul>
         </header>
         <nav>
             <ul>
-                <li><a href="/layouts/root/">Home1</a></li>
-                <li><a href="/layouts/root/sites/cores/about/">About1</a></li>
+                <li><a href="/">Home1</a></li>
+
+                <li><a href="/sites/cores/about/">About1</a></li>
                 <li>
-                    <a href="/layouts/root/sites/cores/contact/">Contact1</a>
+                    <a href="/sites/cores/contact/">Contact1</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="/layouts/root/sites/cores/login/index.html"
-                        >Login</a
-                    >
+                    <a href="/sites/cores/login/index.html">Login</a>
                 </li>
             </ul>
         </nav>
@@ -43,10 +42,10 @@
             <aside>
                 <ul>
                     <li>
-                        <a href="/layouts/root/sites/products/">Products</a>
+                        <a href="/sites/products/">Products</a>
                     </li>
                     <li>
-                        <a href="/layouts/root/sites/customers">Customers</a>
+                        <a href="/sites/customers">Customers</a>
                     </li>
                 </ul>
             </aside>
@@ -54,31 +53,33 @@
         </div>
         <section id="loginregisterforgot">
             <div id="login">
-                <img src="/layouts/root/images/logoipsum-331.svg" />
+                <img src="/images/logoipsum-331.svg" />
                 <h1>Login</h1>
                 <form action="#">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" placeholder="Username" />
-                    <label for="password">Password</label
-                    ><a href="/layouts/root/sites/cores/forgot/index.html"
-                        >Forgot Password</a
-                    >
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Email" />
+                    <div>
+                        <label for="password">Password</label>
+                        <a href="/sites/cores/forgot/index.html"
+                            >Forgot Password</a
+                        >
+                    </div>
                     <input
                         type="password"
                         name="password"
                         placeholder="Password"
                     />
+
                     <button type="submit">Login</button>
                     <p>
-                        Not a Member<a
-                            href="/layouts/root/sites/cores/register/index.html"
+                        Not a Member<a href="/sites/cores/register/index.html"
                             >Register</a
                         >
                     </p>
                 </form>
             </div>
             <div id="register">
-                <img src="/layouts/root/images/logoipsum-331.svg" />
+                <img src="/images/logoipsum-331.svg" />
                 <h1>Register</h1>
                 <form action="#">
                     <label for="email">Email</label>
@@ -98,15 +99,14 @@
                     />
                     <button type="submit">Register</button>
                     <p>
-                        You are a Member<a
-                            href="/layouts/root/sites/cores/login/index.html"
+                        You are a Member<a href="/sites/cores/login/index.html"
                             >Login</a
                         >
                     </p>
                 </form>
             </div>
             <div id="forgot">
-                <img src="/layouts/root/images/logoipsum-331.svg" />
+                <img src="/images/logoipsum-331.svg" />
                 <h1>Forgot Password</h1>
                 <form action="#">
                     <label for="email">Email</label>
@@ -117,7 +117,10 @@
         </section>
         <footer>
             <hr />
-            <span>Footer</span> <span>Contact Us</span>
+            <ul>
+                <li>Footer</li>
+                <li>Contact Us</li>
+            </ul>
         </footer>
     </body>
 </html>
