@@ -1,0 +1,34 @@
+#loginregisterforgot {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+#login {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+}
+#login > img {
+    width: 50%;
+}
+#login > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#login > form > div {
+    display: flex;
+    justify-content: space-between;
+}
+#login > form > p:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+#register {
+    display: none;
+}
+#forgot {
+    display: none;
+}
