@@ -3,67 +3,81 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/index.css" />
-        <link rel="stylesheet" href="./styles/header.css" />
-        <link rel="stylesheet" href="./styles/nav.css" />
-        <link rel="stylesheet" href="./styles/aside.css" />
-        <link rel="stylesheet" href="./styles/asideaside.css" />
-        <link rel="stylesheet" href="./styles/main.css" />
-        <link rel="stylesheet" href="./styles/footer.css" />
-        <title>Document</title>
+
+        <link rel="stylesheet" href="/layouts/root/styles/index.css" />
+        <link rel="stylesheet" href="/layouts/root/styles/header.css" />
+        <link rel="stylesheet" href="/layouts/root/styles/nav.css" />
+        <link rel="stylesheet" href="/layouts/root/styles/main.css" />
+        <link rel="stylesheet" href="/layouts/root/styles/aside.css" />
+        <link rel="stylesheet" href="/layouts/root/styles/footer.css" />
+        <!-- <link rel="stylesheet" href="/layouts/root/styles/login.css"> -->
+        <!-- <link rel="stylesheet" href="/layouts/root/styles/register.css"> -->
+        <!-- <link rel="stylesheet" href="/layouts/root/styles/forgot.css"> -->
+        <title>Home</title>
     </head>
     <body>
         <header>
-            <img src="./images/logoipsum-331.svg" />
-            <span>Here the Name </span>
+            <a href="/layouts/root/"
+                ><img src="/layouts/root/images/logoipsum-331.svg"
+            /></a>
+            <span>Here the NAME </span>
             <span>and here the Slogan of the side</span>
         </header>
         <nav>
             <ul>
-                <li><a href="./index.php">Home1</a></li>
-                <li><a href="./about.php">About1</a></li>
-                <li><a href="./contact.php">Contact1</a></li>
+                <li><a href="/layouts/root/">Home1</a></li>
+                <li><a href="/layouts/root/sites/cores/about/">About1</a></li>
+                <li>
+                    <a href="/layouts/root/sites/cores/contact/">Contact1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="/layouts/root/sites/cores/login/index.html"
+                        >Login</a
+                    >
+                </li>
             </ul>
         </nav>
         <aside>
             <ul>
-                <li><a href="./index.php">Home2</a></li>
-                <li><a href="./about.php">About2</a></li>
-                <li><a href="./contact.php">Contact2</a></li>
+                <li><a href="/layouts/root/">Home2</a></li>
+                <li><a href="/layouts/root/sites/cores/about/">About2</a></li>
+                <li>
+                    <a href="/layouts/root/sites/cores/contact/">Contact2</a>
+                </li>
             </ul>
         </aside>
-        <aside>
-            <aside>
-                <ul>
-                    <li><a href="./index.php">Home3</a></li>
-                    <li><a href="./about.php">About3</a></li>
-                    <li><a href="./contact.php">Contact3</a></li>
-                </ul>
-            </aside>
-        </aside>
 
-        <section id="loginregisterfrgot">
+        <section id="loginregisterforgot">
             <div id="login">
-                <img src="./images/logoipsum-331.svg" alt="logo" />
+                <img src="/layouts/root/images/logoipsum-331.svg" />
                 <h1>Login</h1>
-                <form action="./login.php" method="post">
+                <form action="#">
                     <label for="username">Username</label>
                     <input type="text" name="username" placeholder="Username" />
                     <label for="password">Password</label
-                    ><a href="/forgotpass.html">Forgot Password</a>
+                    ><a href="/layouts/root/sites/cores/forgot/index.html"
+                        >Forgot Password</a
+                    >
                     <input
                         type="password"
                         name="password"
                         placeholder="Password"
                     />
                     <button type="submit">Login</button>
-                    <p>Not a Member<a href="/register.html">Register</a></p>
+                    <p>
+                        Not a Member<a
+                            href="/layouts/root/sites/cores/register/index.html"
+                            >Register</a
+                        >
+                    </p>
                 </form>
             </div>
             <div id="register">
-                <img src="./images/logoipsum-331.svg" alt="logo" />
+                <img src="/layouts/root/images/logoipsum-331.svg" />
                 <h1>Register</h1>
-                <form action="./register.php" method="post">
+                <form action="#">
                     <label for="email">Email</label>
                     <input type="email" name="email" placeholder="Email" />
                     <label for="username">Username</label>
@@ -80,13 +94,18 @@
                         placeholder="Repeat password"
                     />
                     <button type="submit">Register</button>
-                    <p>You are a Member<a href="/login.html">Register</a></p>
+                    <p>
+                        You are a Member<a
+                            href="/layouts/root/sites/cores/login/index.html"
+                            >Login</a
+                        >
+                    </p>
                 </form>
             </div>
             <div id="forgot">
-                <img src="./images/logoipsum-331.svg" alt="logo" />
+                <img src="/layouts/root/images/logoipsum-331.svg" />
                 <h1>Forgot Password</h1>
-                <form action="./forgot.php" method="post">
+                <form action="#">
                     <label for="email">Email</label>
                     <input type="email" name="email" placeholder="Email" />
                     <button type="submit">Send</button>

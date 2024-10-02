@@ -1,0 +1,26 @@
+#loginregisterforgot {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+}
+#login {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+}
+#login > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#login > form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#register {
+    display: none;
+}
+#forgot {
+    display: none;
+}

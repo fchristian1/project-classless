@@ -173,51 +173,21 @@ input {
     -webkit-rtl-ordering: logical;
     -webkit-border-image: none;
 }
-a {
-    border-bottom-color: rgb(39, 39, 42);
-    border-bottom-style: solid;
-    border-bottom-width: 0px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(39, 39, 42);
-    border-left-style: solid;
-    border-left-width: 0px;
-    border-right-color: rgb(39, 39, 42);
-    border-right-style: solid;
-    border-right-width: 0px;
-    border-top-color: rgb(39, 39, 42);
-    border-top-style: solid;
-    border-top-width: 0px;
-    box-sizing: border-box;
-    color: rgba(250, 250, 250, 0.71);
-    color-scheme: dark;
-    cursor: pointer;
-    display: block;
-    font-family: __GeistSans_ac79ff, __GeistSans_Fallback_ac79ff, ui-sans-serif,
-        system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-feature-settings: normal;
-    font-size: 14px;
-    font-synthesis-weight: none;
-    font-variation-settings: normal;
-    height: 20px;
-    line-height: 20px;
-    tab-size: 4;
-    text-decoration-color: rgba(250, 250, 250, 0.71);
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: auto;
-    text-rendering: optimizelegibility;
-    text-size-adjust: 100%;
-    transition-duration: 0.15s;
-    transition-property: color, background-color, border-color,
-        text-decoration-color, fill, stroke;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    -webkit-font-smoothing: antialiased;
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffd57a;
+    text-decoration: none;
+}
+a:active {
+    color: #ffe3a7;
+    text-decoration: none;
 }
 nav {
     display: none;

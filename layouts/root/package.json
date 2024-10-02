@@ -1,0 +1,16 @@
+{
+  "name": "project-classless",
+  "version": "1.0.0",
+  "main": "watch.js",
+  "type": "module",
+  "scripts": {
+    "copyWatch": "node watch.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
