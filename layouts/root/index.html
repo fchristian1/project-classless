@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/index.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/nav.css" />
+        <link rel="stylesheet" href="./styles/aside.css" />
+        <link rel="stylesheet" href="./styles/asideaside.css" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <img src="./images/logoipsum-331.svg" />
+            <span>Here the Name </span>
+            <span>and here the Slogan of the side</span>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.php">Home1</a></li>
+                <li><a href="./about.php">About1</a></li>
+                <li><a href="./contact.php">Contact1</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <ul>
+                <li><a href="./index.php">Home2</a></li>
+                <li><a href="./about.php">About2</a></li>
+                <li><a href="./contact.php">Contact2</a></li>
+            </ul>
+        </aside>
+        <aside>
+            <aside>
+                <ul>
+                    <li><a href="./index.php">Home3</a></li>
+                    <li><a href="./about.php">About3</a></li>
+                    <li><a href="./contact.php">Contact3</a></li>
+                </ul>
+            </aside>
+        </aside>
+
+        <section id="loginregisterfrgot">
+            <div id="login">
+                <img src="./images/logoipsum-331.svg" alt="logo" />
+                <h1>Login</h1>
+                <form action="./login.php" method="post">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username" />
+                    <label for="password">Password</label
+                    ><a href="/forgotpass.html">Forgot Password</a>
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Password"
+                    />
+                    <button type="submit">Login</button>
+                    <p>Not a Member<a href="/register.html">Register</a></p>
+                </form>
+            </div>
+            <div id="register">
+                <img src="./images/logoipsum-331.svg" alt="logo" />
+                <h1>Register</h1>
+                <form action="./register.php" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email" />
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username" />
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        name="passwordA"
+                        placeholder="Strong password"
+                    />
+                    <input
+                        type="password"
+                        name="passwordB"
+                        placeholder="Repeat password"
+                    />
+                    <button type="submit">Register</button>
+                    <p>You are a Member<a href="/login.html">Register</a></p>
+                </form>
+            </div>
+            <div id="forgot">
+                <img src="./images/logoipsum-331.svg" alt="logo" />
+                <h1>Forgot Password</h1>
+                <form action="./forgot.php" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email" />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <main>insert here your main content</main>
+        <footer><span>Footer</span> <span>Contact Us</span></footer>
+    </body>
+</html>

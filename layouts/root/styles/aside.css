@@ -1,0 +1,3 @@
+aside:not(:has(> aside)) {
+    display: block;
+}
