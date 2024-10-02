@@ -1,0 +1,48 @@
+nav {
+    background-color: blue;
+    padding: 1rem;
+    height: 3rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    list-style: none;
+    justify-content: space-between;
+}
+
+aside,
+main {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+aside {
+    background-color: lightblue;
+    width: 20%;
+}
+
+main {
+    background-color: lightgreen;
+    width: 79%;
+}
+
+footer {
+    background-color: blue;
+    padding: 1rem;
+    height: 3rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    list-style: none;
+    justify-content: space-between;
+}
