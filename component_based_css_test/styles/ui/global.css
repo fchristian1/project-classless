@@ -1,0 +1,15 @@
+@import url('fonts.css');
+
+:root {
+    --primary-color: #18181B;
+    --input-border-color: #18181B;
+    --input-border-color: #ccc;
+    --background-color: #fff;
+    --foreground-color: #333;
+    --muted-foreground-color: #999;
+    --ring-color: #007bff;
+}
+
+body {
+    font-family: 'Geist', sans-serif;
+}

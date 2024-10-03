@@ -6,3 +6,7 @@ button[type=submit] {
     border-radius: 5px;
     cursor: pointer;
 }
+
+button[type=submit]:hover {
+    opacity: 0.9;
+}
