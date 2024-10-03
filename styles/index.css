@@ -4,10 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    display: flex;
+    justify-content: center;
+    min-width: 360px;
+}
 body {
     font-family: "Roboto", sans-serif;
     background-color: #949494;
+    width: 1200px;
 }
+@media only screen and (max-width: 1199.98px) {
+    body {
+        width: 100%;
+    }
+}
+
 body > div {
     display: flex;
     flex-direction: row;
@@ -22,7 +34,7 @@ button {
     appearance: button;
     background-color: rgb(250, 250, 250);
     background-image: none;
-    border-bottom-color: rgb(39, 39, 42);
+    border-bottom-color: rgb(184, 184, 184);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-bottom-style: solid;
@@ -32,13 +44,13 @@ button {
     border-image-slice: 100%;
     border-image-source: none;
     border-image-width: 1;
-    border-left-color: rgb(39, 39, 42);
+    border-left-color: rgb(184, 184, 184);
     border-left-style: solid;
     border-left-width: 0px;
-    border-right-color: rgb(39, 39, 42);
+    border-right-color: rgb(184, 184, 184);
     border-right-style: solid;
     border-right-width: 0px;
-    border-top-color: rgb(39, 39, 42);
+    border-top-color: rgb(184, 184, 184);
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-top-style: solid;
@@ -102,6 +114,18 @@ button {
     -webkit-font-smoothing: antialiased;
     -webkit-border-image: none;
 }
+button:hover {
+    background-color: rgb(230, 230, 230);
+    border: 2px solid rgb(139, 139, 139);
+}
+button[type="button"] {
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid #c5c5c5;
+}
+button[type="button"]:hover {
+    background-color: rgb(170, 170, 170);
+    border: 2px solid rgb(170, 170, 170);
+}
 input {
     appearance: auto;
     background-color: rgb(9, 9, 11);
@@ -150,7 +174,7 @@ input {
     font-variant-numeric: normal;
     font-variant-position: normal;
     font-variation-settings: normal;
-    font-weight: 600;
+    font-weight: 600a;
     height: 40px;
     letter-spacing: normal;
     line-height: 20px;

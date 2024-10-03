@@ -23,6 +23,10 @@
     flex-direction: column;
     gap: 10px;
 }
+#forgot > form > div {
+    display: flex;
+    justify-content: space-between;
+}
 #forgot > form > p:last-child {
     display: flex;
     justify-content: center;

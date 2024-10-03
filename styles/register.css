@@ -20,6 +20,10 @@
     flex-direction: column;
     gap: 10px;
 }
+#register > form > div {
+    display: flex;
+    justify-content: space-between;
+}
 #register > form > p:last-child {
     display: flex;
     justify-content: center;
