@@ -15,11 +15,11 @@ a {
     /* focus-visible:outline-none */
     height: 2.5rem;
     /* h-10 */
-    padding: 0 0.25rem;
+    padding: 0 0rem;
     /* px-4 py-2 */
     color: var(--primary-color);
     /* text-primary */
-    text-decoration: none;
+    text-decoration: underline;
     /* hover:underline */
     text-underline-offset: 0.25rem;
     /* underline-offset-4 */
