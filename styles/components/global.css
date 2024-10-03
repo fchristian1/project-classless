@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #18181B;
+    --input-border-color: #18181B;
+    --input-border-color: #ccc;
+    --background-color: #fff;
+    --foreground-color: #333;
+    --muted-foreground-color: #999;
+    --ring-color: #007bff;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('fonts/Geist-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('fonts/Geist-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Geist', sans-serif;
+}
