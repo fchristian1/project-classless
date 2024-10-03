@@ -15,3 +15,63 @@
 body {
     font-family: 'Geist', sans-serif;
 }
+
+h1 {
+    scroll-margin: 20px;
+    font-size: 1.875rem;
+    /* 30px */
+    line-height: 2.25rem;
+    /* 36px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+}
+
+h2 {
+    scroll-margin: 20px;
+    font-size: 1.5rem;
+    /* 24px */
+    line-height: 2rem;
+    /* 32px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+}
+
+h3 {
+    scroll-margin: 20px;
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.75rem;
+    /* 28px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+}
+
+h4 {
+    scroll-margin: 20px;
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5rem;
+    /* 24px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+}
+
+h5 {
+    scroll-margin: 20px;
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+}
+
+h6 {
+    scroll-margin: 20px;
+    font-size: 0.75rem;
+    /* 12px */
+    line-height: 1rem;
+    /* 16px */
+    font-weight: 700;
+    letter-spacing: -0.01562em;
+}
