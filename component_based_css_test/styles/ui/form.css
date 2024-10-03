@@ -4,7 +4,7 @@ form {
     justify-content: left;
     align-items: flex-start;
     gap: 0.5rem;
-    width: 30%;
+    width: 90%;
 }
 
 form>*:last-child {
@@ -17,4 +17,19 @@ form input {
     max-width: 100%;
     box-sizing: border-box;
     padding: 1.25rem 1rem;
+}
+
+form button[type=submit] {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    form {
+        width: 30%;
+    }
+
+    form button[type=submit] {
+        width: 100%;
+    }
+
 }

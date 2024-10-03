@@ -1,5 +1,5 @@
 small {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--muted-foreground-color);
     font-weight: 300;
 }
