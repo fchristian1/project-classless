@@ -2,6 +2,8 @@
 
 :root {
     --primary-color: #18181B;
+    --secondary-color: #F6F6F7;
+    --destructive-color: #ef4444;
     --input-border-color: #18181B;
     --input-border-color: #ccc;
     --background-color: #fff;
