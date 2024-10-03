@@ -4,12 +4,14 @@ index.html and the css files are a responsive system.
 
 index.html is the complete side with all core elements.
 
+```html
 <header></header>
 <nav></nav>
 <aside></aside>
 <main></main>
 <section id="loginregisterforgot"></section>
 <footer></footer>
+```
 
 in the head of html link all css files.
 comment out what do you not need.
