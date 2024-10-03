@@ -20,38 +20,6 @@ input::placeholder {
     color: var(--muted-foreground-color);
 }
 
-
-label {
-    margin-top: 0.5rem;
-    font-size: 0.875rem;
-    text-align: left;
-    font-weight: 500;
-    line-height: 1;
-    color: var(--primary-color)
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    gap: 0.5rem;
-    width: 30%;
-}
-
-form>*:last-child {
-    margin-top: 0.5rem;
-    /* Adjust this value as needed */
-}
-
-form input {
-    min-width: 50%;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 1.25rem 1rem;
-}
-
 input:disabled {
     cursor: not-allowed;
     opacity: 0.7;
@@ -62,10 +30,4 @@ input:focus {
     box-shadow: 0 0 0 2px var(--ring-color);
     --ring-color: var(--ring-color);
     --ring-offset-width: 2px;
-}
-
-small {
-    font-size: 14px;
-    color: var(--muted-foreground-color);
-    font-weight: 300;
 }
